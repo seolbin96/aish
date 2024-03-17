@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "AppleSDGothicNeoT";
+  src: url("./font/AppleSDGothicNeoT.ttf");
+}
+.user h2 {
+  font-family:'AppleSDGothicNeoT'
+}
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  text-align: right; /* 오른쪽 정렬 */
+  overflow-y: auto; /* 스크롤바 생성을 위한 속성 추가 */
+  max-height: 650px; /* 최대 높이 설정 */
+}
+  .chat-box p {
+    text-align: left;
+  }
+  .messages {
+    display: flex;
+    flex-direction: column-reverse;
+}
+  .message {
+    background-color: #E1FFEE; 
+    padding: 0.5px 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin: 5px 15px;
+    width: fit-content;
+    align-self: flex-end;
+    text-align: right; 
+}
+.response {
+  background-color: #D7E2FF;
+    padding: 0.5px 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin: 5px 15px;
+    width: fit-content;
+    text-align: left; 
+}
+.user img {
+  margin-top: 20px;
+  margin-right: 10px;
+  width: auto;
+  height: 50px;
+}
+.horizontal-line {
+  border: none;
+  border-top: 2px solid #bfdfd3;
+  margin: 10px 0;
+  margin-left: 15px;
+  margin-right: 15px;
+}

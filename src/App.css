@@ -1,0 +1,23 @@
+.App {
+    text-align: center;
+  }
+  
+  .split-container {
+    display: flex;
+  }
+  
+  .left-pane,
+  .right-pane {
+    flex: 1;
+    border: 1px solid #c0dfe9;
+  }
+  
+  .left-pane {
+    background-color: #f4fdff;
+    overflow-y: auto;
+  }
+  
+  .right-pane {
+    background-color: rgb(255, 255, 255);
+  }
+  
